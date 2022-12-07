@@ -18,12 +18,13 @@ const RUNECHANNELID = '1049934513612017706';
 const CHANNELID = "877018954516807680";
 
 client.on("ready", () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Client is ready:  ${client.user.tag}!`);
 });
 
 const userIsPartOfChannel = async (userId, channelId) => {
   let userIsPartOfChannel = await client.channels.fetch(channelId).then(channel => {
     const members = Array.from(channel.members.keys())
+
     if (members.includes(userId)) {
       return true
     } else {
@@ -35,14 +36,12 @@ const userIsPartOfChannel = async (userId, channelId) => {
 }
 
 const remindUserToSetRunes = (activities, userId) => {
-  console.log('remindUserToSetRunes..')
   if (!userIsPartOfChannel(userId, RUNECHANNELID)) {
     return
   }
-  console.log('made it past channel check')
+
   activities.forEach(async (activity) => {
     if (activity.name === 'League of Legends' && activity.state === 'In Champion Select') {
-
       let msg = `<@${userId}>, dont forget to set your runes!`
       client.channels.cache.get(RUNECHANNELID).send(msg);
     }
