@@ -1,0 +1,17 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "An example application - make sure to configure this yourself.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pebblehost",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "discord.js": "^13.2.0-dev.1629288463.d6e6244",
+    "moment": "^2.29.1"
+  },
+  "nodeVersion": "16.6.0"
+}

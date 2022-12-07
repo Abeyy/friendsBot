@@ -1,0 +1,31 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 20.9M    0 16366    0     0  33196      0  0:11:01 --:--:--  0:11:01 33129 71 20.9M   71 15.0M    0     0  10.4M      0  0:00:02  0:00:01  0:00:01 10.3M100 20.9M  100 20.9M    0     0  12.9M      0  0:00:01  0:00:01 --:--:-- 12.9M
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 4s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New major version of npm available! 7.19.1 -> 8.3.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v8.3.0>
+npm notice Run `npm install -g npm@8.3.0` to update!
+npm notice 
+
+up to date, audited 28 packages in 648ms
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Logged in as FriendStatus#2157!
+Undefined user: . 97719863639805952
+User cache: [object Object]
+Made it to time check.. returning now.
+Made it to time check.. returning now.
+Made it to time check.. returning now.
+Made it to time check.. returning now.
+Made it to time check.. returning now.

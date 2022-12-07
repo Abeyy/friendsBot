@@ -1,0 +1,40 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 20.9M  100 20.9M    0     0  66.9M      0 --:--:-- --:--:-- --:--:-- 66.9M
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 4s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 7.19.1 -> 7.20.6
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.20.6>
+npm notice Run `npm install -g npm@7.20.6` to update!
+npm notice 
+
+added 1 package, and audited 2 packages in 862ms
+
+found 0 vulnerabilities
+node:internal/modules/cjs/loader:936
+  throw err;
+  ^
+
+Error: Cannot find module 'discord.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server213362/bot.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:94:18)
+    at Object.<anonymous> (/home/minecraft/multicraft/servers/server213362/bot.js:2:35)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server213362/bot.js' ]
+}
